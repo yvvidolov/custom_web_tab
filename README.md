@@ -15,6 +15,9 @@ Use this to divide or group tabs.
 - ...
 - Profit
 
+### Example Setup
+[example.txt](example.txt)
+
 ### Screenshot
 Firefox with TreeStyleTabs
 ![ScreenShot](image.jpg)

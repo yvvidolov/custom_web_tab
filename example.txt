@@ -1,0 +1,20 @@
+YOUTUBE ==========
+https://img.icons8.com/?size=100&id=19318&format=png&color=000000
+
+MUSIC =============
+https://img.icons8.com/?size=100&id=108790&format=png&color=000000
+
+CHAT ============
+https://img.icons8.com/?size=100&id=103407&format=png&color=000000
+
+Shopping =========
+https://img.icons8.com/?size=100&id=JWv_lqo5fs4F&format=png&color=000000
+
+Education ========
+https://img.icons8.com/?size=100&id=12197&format=png&color=000000
+
+News =============
+https://img.icons8.com/?size=100&id=13841&format=png&color=000000
+
+Current ============
+https://img.icons8.com/?size=100&id=19800&format=png&color=000000
