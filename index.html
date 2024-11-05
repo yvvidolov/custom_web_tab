@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Title</title>
+
+    <link id="favicon" 
+          rel="icon"
+          type="image/png" 
+          >
+          <!-- sizes="16x16" -->
+
+    <style>
+        body, html {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+        }
+        .center-content {
+            text-align: center;
+            position: absolute;
+            top: 30%;
+            transform: translateY(-50%);
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+</html>
+
+<!-- 
+https://img.icons8.com/?size=100&id=19318&format=png&color=000000
+ -->
+
+<body>
+    <div  class="center-content">
+        <h1 id="titleBox">Title</h1>
+        <img id="iconImg" href="" />
+        <br/><br/><br/>
+
+        Set Page Title: 
+        <input type="text" id="titleInput" onkeypress="if(event.keyCode == 13) changeTitle()" />
+        <br /><br />
+
+        Set Icon URL: 
+        <input type="text" id="iconInput" onkeypress="if(event.keyCode == 13) findIcon()" />
+        <br/><br />
+        <a href="https://icons8.com/icons/set/youtube" target="_blank">icons</a>
+        <br /><br />
+
+        
+        <script>
+            function changeTitle() {
+                var newTitle = document.getElementById('titleInput').value;
+                document.title = newTitle;
+                document.getElementById('titleBox').innerText = newTitle;
+            }
+
+            function findIcon() {
+                var iconHtml = document.getElementById('iconInput').value;
+                document.getElementById('iconImg').src = iconHtml;
+                const favicon = document.getElementById("favicon");
+                favicon.setAttribute("href", iconHtml);
+            
+            }
+        </script>
+    </div>
+</body>
+
+</html>
